@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvDash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MAIN DASH BOARD"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textColor="#980AEF"/>
+
+    <Button
+        android:id="@+id/btProfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Profil" />
+
+    <Button
+        android:id="@+id/btTentang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tentang Saya"/>
+    <Button
+        android:id="@+id/Hubungi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hubungi Saya"/>
+
+</LinearLayout>

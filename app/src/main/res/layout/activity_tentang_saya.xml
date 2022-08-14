@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".TentangSaya">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TENTANG SAYA"
+        android:textColor="#252E52"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UNIVERSITAS DARUSSALAM GONTOR MENCETAK KADER-KADER PEMIMPIN UMAT"
+        android:textColor="#183555"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+       android:layout_marginTop="20dp"/>
+
+
+
+</LinearLayout>
